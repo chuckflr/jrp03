@@ -1,0 +1,67 @@
+body
+{
+  margin: 0;
+  background-color: #693726;
+}
+header
+{
+  background-color: #FFC2CE;
+  /*padding: .55em;*/
+}
+h1
+{
+  margin: 0;
+  color: #A2122F;
+  font-family:"Arial Black";
+  padding: .25em;
+}
+nav
+{
+  padding: .25em;
+  background-color: #80B3FF;
+  overflow: hidden;
+}
+nav>a
+{
+  /*This line will style the anchor tag*/
+  font-family: arial;
+  text-decoration: none;
+  padding: 10px;
+  color: #FFF;
+}
+nav>a:hover
+{
+  background-color: #FD6E8A;
+  color:black;
+}
+article
+{
+  margin: 1em;
+  color: #80B3FF;
+}
+img
+{
+  margin: auto;
+  display: block;
+}
+footer
+{
+  text-align: center;
+  height: 1em;
+  background-color: #FD6E8A;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 1em 0;
+  margin: 0 .5em;
+}
+footer>a
+{
+  font-family: arial;
+  text-decoration: none;
+  color:#eee;
+}
+footer>a:hover
+{
+  color: pink;
+}
